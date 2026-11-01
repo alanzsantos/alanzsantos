@@ -6,31 +6,31 @@
 
 ## 🚀 Sobre o Projeto
 
-Este projeto é o meu **portfólio profissional web**, desenvolvido para centralizar e apresentar de forma interativa minha trajetória na área de tecnologia, minhas competências técnicas e os principais projetos de desenvolvimento que realizei.
+Este projeto é o meu **portfólio profissional web**, desenvolvido para centralizar e apresentar de forma interativa minha trajetória na área de tecnologia, minhas competências técnicas e as principais soluções que desenvolvi ao longo da minha carreira.
 
-🔗 **Acesse o portfólio online:** [alanzsantos.github.io/alanzsantos/](https://github.io)
+🔗 **Acesse o portfólio online:** [alanzsantos.github.io/alanzsantos/](https://alanzsantos.github.io/alanzsantos/)
 
 ---
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 
-O projeto foi construído utilizando tecnologias modernas de desenvolvimento web, divididas entre a interface do usuário e a estruturação de ambiente:
+O ecossistema do portfólio foi construído utilizando tecnologias modernas de desenvolvimento web, divididas entre a interface do usuário e a estruturação de ambiente:
 
 * **Frontend:**
   * **HTML5:** Estruturação semântica e acessível do conteúdo.
-  * **CSS3:** Estilização moderna, layouts responsivos e transições fluidas.
-  * **JavaScript (ES6+):** Criação de interatividades dinâmicas e manipulação de elementos na tela.
-* **Backend & Ambiente:**
-  * **Node.js:** Utilizado como base no ecossistema de desenvolvimento e gerenciamento de scripts/dependências.
+  * **CSS3:** Estilização moderna, layouts responsivos com tema dark/green e transições fluidas.
+  * **JavaScript (ES6+):** Criação de interatividades dinâmicas e manipulação de elementos em tela.
+* **Ambiente de Desenvolvimento:**
+  * **Node.js:** Utilizado como base no ecossistema de desenvolvimento e automação de scripts.
 
 ---
 
-## ✨ Funcionalidades Principais
+## ✨ Funcionalidades do Portfólio
 
-* **Apresentação Interativa:** Navegação dinâmica pela minha trajetória profissional e acadêmica.
-* **Vitrine de Projetos:** Exibição detalhada e categorizada das soluções que já desenvolvi.
-* **Design Responsivo:** Totalmente otimizado para visualização em computadores, tablets e smartphones.
-* **Seção de Competências:** Gráficos ou elementos visuais demonstrando meu nível de domínio nas tecnologias.
+* **Apresentação Interativa:** Navegação limpa pelas minhas experiências em desenvolvimento de software (APIs REST, sistemas críticos e arquiteturas integradas).
+* **Vitrine de Projetos:** Exibição detalhada de soluções criadas, como o *Menu Estoque* (ASP.NET MVC, EF Core, AJAX).
+* **Terminal de Skills Virtual:** Um componente interativo simulando um terminal bash para demonstrar minhas competências técnicas por categorias (Frontend, Backend, Frameworks, Database, Cloud/DevOps).
+* **Design Totalmente Responsivo:** Otimização pixel-perfect para visualização em computadores, tablets e smartphones.
 
 ---
 
@@ -67,6 +67,7 @@ Se você deseja clonar este repositório e rodá-lo na sua máquina local, siga 
 
 ## 🤝 Conecte-se Comigo
 
-* **LinkedIn:** [Alan Santos](https://linkedin.com)
+[![LinkedIn](https://shields.io)](https://www.linkedin.com/in/alan-s-5866a619a/)
+
 ---
 <p align="center">Desenvolvido com 💻 por Alan Santos</p>
