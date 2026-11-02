@@ -1,4 +1,4 @@
-# 🌐 Meu Portfólio Profissional Web
+# 💻 Alan Santos — Software Engineer | .NET & Node.js Ecosystem
 
 <p align="center">
   <img width="1672" height="941" alt="697bbcfa-82bb-4689-a067-c8c4abcf0d24" src="https://github.com/user-attachments/assets/3f944e4e-c786-431d-a3a2-06015c874a35" />
@@ -6,7 +6,7 @@
 
 ## 🚀 Sobre o Projeto
 
-Este projeto é o meu **portfólio profissional web**, desenvolvido para centralizar e apresentar de forma interativa minha trajetória na área de tecnologia, minhas competências técnicas e as principais soluções que desenvolvi ao longo da minha carreira.
+Este repositório centraliza meu **portfólio profissional web** interativo. Desenvolvido para apresentar minha trajetória na engenharia de software, ele destaca minhas competências em sistemas críticos e minha transição para arquiteturas modernas e escaláveis.
 
 🔗 **Acesse o portfólio online:** [alanzsantos.github.io/alanzsantos/](https://alanzsantos.github.io/alanzsantos/)
 
@@ -67,7 +67,9 @@ Se você deseja clonar este repositório e rodá-lo na sua máquina local, siga 
 
 ## 🤝 Conecte-se Comigo
 
-[![LinkedIn](https://shields.io)](https://www.linkedin.com/in/alan-s-5866a619a/)
+<a href="https://www.linkedin.com/in/alan-s-5866a619a/" target="_blank">
+  <img src="https://shields.io" alt="LinkedIn" />
+</a>
 
 ---
 <p align="center">Desenvolvido com 💻 por Alan Santos</p>
