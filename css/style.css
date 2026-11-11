@@ -853,7 +853,6 @@ a {
     margin-bottom: 0;
 }
 
-
 /* 
    LAYOUT
 */
@@ -945,9 +944,7 @@ Text
     color: var(--text-primary);
 }
 
-/* ct-formation-center / ct-certification-center kept for JS compat */
 .edu-card,
-.ct-formation-center,
 .ct-certification-center {
     background: var(--bg-card);
     border: 1px solid var(--border);
@@ -957,24 +954,57 @@ Text
 }
 
 .edu-card:hover,
-.ct-formation-center:hover,
 .ct-certification-center:hover {
     border-color: var(--border-hover);
 }
 
+.edu-editorial.ct-formation-center {
+    background: transparent;
+    border: none;
+    border-left: 3px solid #38bdf8;
+    border-radius: 0;
+    padding: 0.2rem 0 0.2rem 1.25rem;
+    max-width: 600px;
+}
+
+.edu-editorial-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 0.35rem;
+}
+
 .edCt-txt-title {
-    font-size: 1.05rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: 0.5rem;
-    line-height: 1.4;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.edu-year {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    background: var(--bg-elevated-3, rgba(2, 233, 36, 0.08));
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+}
+
+.edCt-txt-course {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    opacity: 0.9;
+    margin-bottom: 0.25rem;
 }
 
 .edCt-txt {
     font-size: 0.875rem;
     font-weight: 300;
     color: var(--text-secondary);
-    margin-bottom: 0.2rem;
+    margin: 0;
     opacity: 1;
 }
 
@@ -1006,4 +1036,52 @@ Text
     opacity: 1;
     background: var(--accent);
     transform: scale(1.2);
+}
+
+.title-with-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.title-with-icon i {
+    color: #38bdf8;
+    font-size: 1.5rem;
+}
+
+.title-with-icon svg {
+    color: #38bdf8;
+    flex-shrink: 0;
+}
+
+.cert-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1rem;
+}
+
+.edu-card.ct-certification-center {
+    background: var(--bg-card);
+    border: 1px solid #ef4444;
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.edu-card.ct-certification-center:hover {
+    border-color: #f87171;
+    box-shadow: 0 4px 16px rgba(239, 68, 68, 0.15);
+    transform: translateY(-2px);
+}
+
+.edu-card.ct-certification-center h3 {
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin: 0.5rem 0 1rem 0;
+    line-height: 1.4;
 }

@@ -8,11 +8,14 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://jsdelivr.net">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -110,43 +113,60 @@
             </div>
         </section>
 
-        <section class="section college-section">
-            <div class="section-inner college-inner">
-
-                <div class="college-icon-col ct-edu-cet-right">
-                    <i id="icon_formacao" class="bi bi-mortarboard"></i>
-                </div>
-
+        <section class="timeline-about" id="formation">
+            <div class="section-inner">
                 <div class="college-content-col ct-edu-cet-left">
                     <div class="college-block">
-                        <h2 id="h1_formacao">Formação</h2>
-                        <div class="edu-card ct-formation-center">
-                            <p class="edCt-txt-title">Unip — Universidade Paulista</p>
-                            <p class="edCt-txt">Ciência da Computação</p>
-                            <p class="edCt-txt">Bacharelado — 8 semestres</p>
-                            <p class="edCt-txt">Graduação completa</p>
-                            <p class="edCt-txt">2020 – 2023</p>
+                        <h2 id="h1_formacao" class="title-with-icon">
+                            <svg xmlns="http://w3.org" width="26" height="26" fill="currentColor" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+                                <path
+                                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
+                            </svg>
+                            Formação
+                        </h2>
+                        <div class="edu-editorial ct-formation-center">
+                            <div class="edu-editorial-header">
+                                <p class="edCt-txt-title">UNIP — Universidade Paulista</p>
+                                <span class="edu-year">2020 – 2023</span>
+                            </div>
+                            <p class="edCt-txt-course">Ciência da Computação</p>
+                            <p class="edCt-txt">Bacharelado • 8 semestres • Graduação completa</p>
                         </div>
                     </div>
+                </div>
+            </div>
         </section>
 
-        <section class="section certified-section">
+        <section class="section certified-section" id="certifications">
             <div class="section-inner certified-inner">
-
-                <div class="certified-icon-col ct-edu-cet-right">
-                    <i id="icon_formacao" class="bi bi-mortarboard"></i>
-                </div>
-
                 <div class="certified-content-col ct-edu-cet-left">
                     <div class="certified-block">
-                        <h2 id="h1_formacao">Certificados</h2>
-                        <div class="edu-card ct-formation-center">
-                            <p class="edCt-txt-title">Alura</p>
-                            <h3>Criando sua primeira aplicação C#</h3>
-                            <p>Curso voltado para os fundamentos da linguagem C#.</p>
-                            <p class="edCt-txt">360h</p>
+                        <h2 id="h1_certificados">Certificados</h2>
+
+                        <div class="cert-list">
+                            <div class="edu-card ct-certification-center">
+                                <p class="edCt-txt-title">Alura</p>
+                                <h3>Criando sua primeira aplicação C#</h3>
+                                <p class="edCt-txt">360h</p>
+                            </div>
+
+                            <div class="edu-card ct-certification-center">
+                                <p class="edCt-txt-title">Alura</p>
+                                <h3>Amazon S3: manipule e armazene objetos na nuvem</h3>
+                                <p class="edCt-txt">8h</p>
+                            </div>
+
+                            <div class="edu-card ct-certification-center">
+                                <p class="edCt-txt-title">Udemy</p>
+                                <h3>Curso de ASP .NET Core MVC - Criando um Site do Zero (NET 6)</h3>
+                                <p class="edCt-txt">40h</p>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
         </section>
 
         <section class="timeline-section" id="experiencia">
@@ -212,21 +232,7 @@
                             <h3>Input Center</h3>
                             <h4>Desenvolvedor Back-End</h4>
                             <p class="timeline-text">
-                                Desenvolvimento e manutenção de aplicações Web utilizando .NET Framework, C#, ASP.NET
-                                WebForms e SQL Server.
-                                Desenvolvimento e consumo de APIs REST, promovendo integração entre sistemas
-                                hospitalares.
-                                Implementação e manutenção de regras de negócio para prescrição eletrônica, prontuário
-                                eletrônico e gestão hospitalar.
-                                Desenvolvimento de consultas, procedures, funções e otimização de desempenho no SQL
-                                Server.
-                                Atuação em ambiente AWS, realizando deploy, monitoramento e manutenção de aplicações.
-                                Correção de bugs, manutenção corretiva e evolutiva, análise de requisitos e
-                                implementação de novas funcionalidades.
-                                Integração entre sistemas e garantia da integridade dos dados em ambiente de missão
-                                crítica.
-                                Aplicação de boas práticas de desenvolvimento, versionamento com Git e resolução de
-                                problemas em produção.
+                                Desenvolvimento e manutenção de aplicações Web utilizando .NET Framework, C#, ASP.NET WebForms e SQL Server. Desenvolvimento e consumo de APIs REST, promovendo integração entre sistemas hospitalares. Implementação e manutenção de regras de negócio para prescrição eletrônica, prontuário eletrônico e gestão hospitalar. Desenvolvimento de consultas, procedures, funções e otimização de desempenho no SQL Server. Atuação em ambiente AWS, realizando deploy, monitoramento e manutenção de aplicações. Correção de bugs, manutenção corretiva e evolutiva, análise de requisitos e implementação de novas funcionalidades. Integração entre sistemas e garantia da integridade dos dados em ambiente de missão crítica. Aplicação de boas práticas de desenvolvimento, versionamento com Git e resolução de problemas em produção.
                             </p>
                         </div>
                     </div>
