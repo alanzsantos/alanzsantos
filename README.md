@@ -67,9 +67,8 @@ Se você deseja clonar este repositório e rodá-lo na sua máquina local, siga 
 
 ## 🤝 Conecte-se Comigo
 
-<a href="https://www.linkedin.com/in/alan-s-5866a619a/" target="_blank">
-  <img src="https://shields.io" alt="LinkedIn" />
-</a>
+* **LinkedIn:** [linkedin.com/in/alan-s-5866a619a](https://www.linkedin.com/in/alan-s-5866a619a/)
+* **Portfólio:** [alanzsantos.github.io/alanzsantos](https://alanzsantos.github.io/alanzsantos/)
 
 ---
 <p align="center">Desenvolvido com 💻 por Alan Santos</p>

@@ -49,3 +49,32 @@ function enviarMensagemWhatsapp(event) {
     window.open(urlBase.href, '_blank');
 
 }
+
+function organizaProj() {
+    const filterBtns = document.querySelectorAll('.proj-filter-btn');
+    const projectCards = document.querySelectorAll('.projects-carousel .project-card');
+
+    if (!filterBtns.length || !projectCards.length) return;
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const filter = btn.getAttribute('data-filter');
+
+            projectCards.forEach(card => {
+                const techs = card.getAttribute('data-tech') || '';
+                if (filter === 'all' || techs.includes(filter)) {
+                    card.classList.remove('is-hidden');
+                } else {
+                    card.classList.add('is-hidden');
+                }
+            });
+        });
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    organizaProj();
+});
